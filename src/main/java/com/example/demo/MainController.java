@@ -29,7 +29,7 @@ public class MainController {
     public @ResponseBody String home() {return "ARIEL - ariel nuñez cruz";}
 
     @GetMapping(path="/codigo")
-    public @ResponseBody String codigo() {return "ARIEL";}
+    public @ResponseBody String codigo() {return "PT74847781";}
 
     @GetMapping(path="/nombre-completo")
     public @ResponseBody String nombre() {return "ariel nu\u00F1ez cruz";}
