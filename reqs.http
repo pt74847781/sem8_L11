@@ -1,4 +1,7 @@
-@server = https://texai-sturdy-adventure-xv9jj494hq47-8080.preview.app.github.dev
+
+
+
+@server = https://sem8l11.onrender.com
 @apiserver = {{server}}/api/curso
 ###
 GET {{server}}/
@@ -7,6 +10,11 @@ GET {{server}}/codigo
 ###
 GET {{server}}/nombre-completo
 ###
+
+
+
+
+
 GET {{apiserver}}/listar
 ###
 POST {{apiserver}}/nuevo

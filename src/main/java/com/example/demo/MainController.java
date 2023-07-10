@@ -46,7 +46,7 @@ public class MainController {
   	// private JdbcTemplate jdbcTemplate;
 
 
-    @GetMapping(path="api/cusro/listar")
+    @GetMapping(path="api/curso/listar")
 	public @ResponseBody Iterable<Curso> getAllUsers() {
 		return cursoRepository.findAll();
 	}
